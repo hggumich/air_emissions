@@ -1,3 +1,40 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Air Emissions based on AP-42 Section 12.20 - Electroplating");
+    println!("Electroplating falls under Standard Industrial Classification (SIC) is 3471.");
+    println!("The six-digit Source Classification Code (SCC) is 3-09-010.");
+    println!("Emissions from Chromium Electroplating");
+    println!("Plating operations generate mists due to the evolution of hydrogen and oxygen gas.");
+    println!("The of gassing is a function of the chemical or electrochemical activity in the tank and increases with the amount of work in the tank, the strength and temperature of the solution, and the current densities in the plating tanks.");
+    println!("Emissions are also generated from surface preparations steps - alkaline cleaning, acid dipping, etc.");
+    println!("The emissions are in a form of alkaline and acid mists.");
+    println!("Plating processes' mist depends mainly on the efficiency of the plating bath.");
+    println!("Copper and Nickel plating have high cathode efficiences so that the generation of mist is minimal.");
+    println!("The cathode efficiency of chromium plating is very low (10 - 20 percent) and a substantial quantity of chromic acid mist generated.");
+    println!("Source Classification Codes for a typical Hard Chromium Plating Process.");
+    println!("Pretreatment - Polishing, Grinding, and Degreasing: PM emissions, VOC emissions, AP-42 Chapter 4 for emission factors for Degreasing");
+    println!("Alkaline Cleaning: PM emissions, 3-09-010-14");
+    println!("Acid Dip: PM emissions, 3-09-010-15");
+    println!("Chromic Acid Anodic Treatment: PM Emissions, 3-09-010-16");
+    println!("Electroplating of Chromium: PM Emissions, 3-09-010-18");
+    println!("Chromic Acid Anodizing: PM Emissions, 3-09-010-38");
+    println!("Factors Affecting Chromium Emissions from Electroplating and Anodizing");
+    println!("Current density applied, surface are of the part plated, plate thickness, plating time,");
+    println!("Type of parts plated, Orientation of the parts within the tank, chromic acid concentration,");
+    println!("Surface tension of the plating bath");
+    println!("Electrochemical equivalent is derived from Faraday's law");
+    println!("Emission factor documentation for AP-42 Section 12.20 Table 3-1 list factors");
+    println!("Faraday's Equation is based on a cathode efficiency of 100 percent");
+    println!("For example chromium plating is 51.8, means that 51.8 A-hr is required to deposit 1 mil of chromium per square foot of part surface area.");
+    println!("AP-42 Section 12.20 paragh 3.6.2 Chromic Acid Anodizing Emission Factor Units");
+    println!("Tank surface area is a constraint on the workload and related to emission-generating mechanisms.");
+    println!("AP-42 Section 12.20 paragh 4.2.5 - Total PM Emissions from Chromium Electroplating and Chromic Acid Anodizing.");
+    println!("EFpm is the factor for total PM emissions");
+    println!("EFcr is the factor for chromium emissions");
+    println!("EFpm = 2.1 X EFcr");
+    println!("AP-42 Section 12.20 paragh 4.3 Estimate of emissions from other types of electroplating");
+    println!("Cathode efficiency represents the portion of the total applied energy that is consumed by the electrochemical plating reactions.");
+    println!("The remaining energy is consumed in side reactions such as the dissociation of water into hydrogen and oxygen.");
+    println!("As gaseous hydrogen and oxygen evolve, they entrap plating solution.");
+    println!("At the surface of the plating solution, these gas bubbles burst, forming a fine mist.");
+    println!("")
 }
